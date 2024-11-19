@@ -72,9 +72,7 @@
                     if (n > 4 || n < 0)
                     {
                         throw new ArgumentOutOfRangeException("Nie ma takiego zadania, wybierz ponownie.");
-                        break;
                     }
-                        
                 }
                 catch (Exception e)
                 {
@@ -82,9 +80,6 @@
                     Console.WriteLine(e.ToString());
                 }
             }
-
-
-
             Console.WriteLine("Kończę pętlę.");
         }
         static void PrintTriangle(int x)
